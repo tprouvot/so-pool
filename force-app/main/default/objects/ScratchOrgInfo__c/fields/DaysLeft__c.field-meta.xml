@@ -5,8 +5,8 @@
     <externalId>false</externalId>
     <formula>DurationDays__c - (NOW() - CreatedDate)</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-    <inlineHelpText>Nombre de jours avant l&apos;expiration de la scratch org</inlineHelpText>
-    <label>Nombre jours restant</label>
+    <inlineHelpText>Number of days before scratch org expiration</inlineHelpText>
+    <label>Number of days before expiration</label>
     <precision>18</precision>
     <required>false</required>
     <scale>0</scale>
