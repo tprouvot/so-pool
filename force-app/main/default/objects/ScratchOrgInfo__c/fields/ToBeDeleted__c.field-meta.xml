@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ToBeDeleted__c</fullName>
+    <description>Indicates if scratch org is expired and scratch org info must be deleted or not</description>
+    <externalId>false</externalId>
+    <formula>(DaysLeft__c / DurationDays__c) &lt; 0</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>A supprimer ?</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>
